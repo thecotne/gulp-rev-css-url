@@ -1,16 +1,15 @@
 {
-  "name": "gulp-rev-css-url",
+  "name": "@thecotne/gulp-rev-css-url",
   "version": "0.1.0",
   "description": "The lightweight plugin to override urls in css files to hashed after gulp-rev",
   "repository": {
     "type": "git",
-    "url": "git://github.com/galkinrost/gulp-rev-css-url"
+    "url": "git://github.com/thecotne/gulp-rev-css-url.git"
   },
-  "author": {
-    "name": "Galkin Rostislav",
-    "email": "galkinrost@gmail.com",
-    "url": "http://github.com/galkinrost"
-  },
+  "author": "Galkin Rostislav <galkinrost@gmail.com> (http://github.com/galkinrost)",
+  "contributors": [
+    "cotne nazarashvili <cotne.nazarashvili@gmail.com>"
+  ],
   "keywords": [
     "gulpplugin",
     "rev",
@@ -41,5 +40,11 @@
   },
   "scripts": {
     "test": "mocha test.js -R list"
-  }
+  },
+  "bugs": {
+    "url": "https://github.com/thecotne/gulp-rev-css-url/issues"
+  },
+  "homepage": "https://github.com/thecotne/gulp-rev-css-url#readme",
+  "main": "index.js",
+  "license": "ISC"
 }
